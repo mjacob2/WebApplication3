@@ -21,6 +21,7 @@ namespace WebApplication3
             // Register the repositories
             builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IPaymentService, StripePaymentService>();
 
             builder.Services.AddControllers();
 
