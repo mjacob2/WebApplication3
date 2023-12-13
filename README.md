@@ -69,6 +69,10 @@ Was the code ready to run after generation?
 No
 What did you have to change to make it usable?
 prepare database
+
+Test Coverage:
+![image](https://github.com/mjacob2/WebApplication3/assets/26388420/a5e57510-392e-49be-9b45-88aeae741e04)
+
 Which challenges did you face during completion of the task?
 app project is multi files. Response is only one window.
 Which specific prompts you learned as a good practice to complete the task?
